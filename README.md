@@ -16,19 +16,27 @@ Our solution is an AI-powered surveillance system designed to monitor and analyz
 
 # Expected Outcomes
 Increase in the prevention and reduction of harassment incidents through deterrence.
+
 Improved safety for women in monitored environments.
+
 Faster response times by authorities to harassment situations.
 
 # How It Works
 Video Capture: Captures video from the webcam.
+
 Frame Processing: Processes each frame for analysis using the VGG16 model.
+
 Feature Extraction: Utilizes the VGG16 base model for extracting features.
+
 Harassment Detection: Predicts the presence of harassment and displays the prediction on the video frame.
+
 Live Updates: Continuously updates the interface with the live video feed and prediction results.
 
 # Technology Stack
 Languages & Frameworks: Python, OpenCV
+
 Tools & Libraries: TensorFlow, Pywhatkit (for WhatsApp SOS alerts), ip-api (for location coordinates), Streamlit
+
 Architecture: Frontend (User Dashboard), Backend (Processing and Analysis, SOS Trigger Mechanism), Machine Learning Models (VGGNet16 CNN for harassment detection)
 
 # Business Prospect
