@@ -8,6 +8,7 @@ Harassment is a critical problem that undermines the safety and freedom of women
 
 # Objectives
 Real-Time Harassment Detection: Utilize webcam technology to detect harassment in real time.
+
 Immediate SOS Alert Mechanism: Implement an alert system that notifies authorities instantly upon detection, facilitating prompt intervention.
 
 # Solution Overview
@@ -17,7 +18,8 @@ Our solution is an AI-powered surveillance system designed to monitor and analyz
 Increase in the prevention and reduction of harassment incidents through deterrence.
 Improved safety for women in monitored environments.
 Faster response times by authorities to harassment situations.
-How It Works
+
+# How It Works
 Video Capture: Captures video from the webcam.
 Frame Processing: Processes each frame for analysis using the VGG16 model.
 Feature Extraction: Utilizes the VGG16 base model for extracting features.
